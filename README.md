@@ -1,3 +1,27 @@
+
+## Kurulum
+
+Uygulamayı forklayabilir veya dosyaları bilgisayarınıza indirebilirsiniz. Uygulamayı bilgisayarınızda bir klasöre indirdiğinizde.
+
+- Komut satırını açın ve komut satırı üzerindenprojenizin olduğu dizine gidin.
+- ```npm init``` komutu ile uygulamayı başlamak için hazırlayın.
+- **.env** dosyasını doldurun
+- ```nodemon app.js``` komutu ile uygulamanızı çalıştırın.
+
+
+
+Örnek **.env** dosyası şu şekilde olabilir.
+
+```
+DB_URI=mongodb://localhost:27017/Freelancer
+PORT=3000
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
+
+
+```
+
 ![image](https://github.com/user-attachments/assets/7b93613a-2822-4cb0-a130-61c77c62a460)
 ![image](https://github.com/user-attachments/assets/05e660a7-a022-4fc6-a721-ce103f174e27)
 
